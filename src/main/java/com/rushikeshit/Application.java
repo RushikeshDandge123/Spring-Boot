@@ -10,8 +10,11 @@ public class Application {
 	ApplicationContext context = SpringApplication.run(Application.class, args);
 		
 		Person person = context.getBean(Person.class);
-		
+		person.setId(101);
+		person.setName("Rishi");
 		System.out.println(person);
+
+
 	}
 
 }
