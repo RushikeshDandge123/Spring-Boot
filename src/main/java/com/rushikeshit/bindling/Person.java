@@ -7,6 +7,11 @@ public class Person {
 	private String email;
 	private String gender;
 	
+	public Person(){
+	
+	
+	
+	}
 	
 	public Person(Integer id, String name, String email , String gender){
 		
