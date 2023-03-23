@@ -8,7 +8,7 @@ import com.rushikeshit.bindling.Person;
 @RestController
 public class PersonRestController {
 
-	
+	String Name;
 	@GetMapping("/person")
 	public Person getPerson() {
 		
