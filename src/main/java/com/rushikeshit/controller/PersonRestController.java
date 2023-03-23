@@ -8,7 +8,11 @@ import com.rushikeshit.bindling.Person;
 @RestController
 public class PersonRestController {
 
+<<<<<<< HEAD
 	String Name;
+=======
+	Integer a = 10;
+>>>>>>> 9e71c4a7db6a7c03538daa53286d37cefa36301c
 	@GetMapping("/person")
 	public Person getPerson() {
 		
