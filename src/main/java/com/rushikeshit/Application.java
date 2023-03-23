@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+	ApplicationContext context = SpringApplication.run(Application.class, args);
+		
+		Person person = context.getBean(Person.class);
+		
+		System.out.println(person);
 	}
 
 }
