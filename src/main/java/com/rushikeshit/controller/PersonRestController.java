@@ -9,6 +9,12 @@ import com.rushikeshit.bindling.Person;
 public class PersonRestController {
 
 
+
+	String Name;
+
+	Integer a = 10;
+
+
 	@GetMapping("/person")
 	public Person getPerson() {
 		
