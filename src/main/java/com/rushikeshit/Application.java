@@ -13,7 +13,7 @@ public class Application {
 		person.setId(101);
 		person.setName("Rishi");
 		System.out.println(person);
-
+		String name = "Mahi"
 
 	}
 
